@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * lomuto_partition - partitions the array by selecting the last element as pivot
+ * lomuto_partition - partitions the array by selecting last element as pivot
  * @array: the unsorted array
  * @low: the lowest index of the lomuto_partition to sort
  * @high: the highest index of the lomuto_partition to sort
