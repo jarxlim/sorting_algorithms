@@ -2,6 +2,19 @@
 #define _SORT_H_
 
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * enum bool - Enumerate of Boolean values.
+ * @false: equals 0.
+ * @true: equals 1.
+ */
+typedef enum bool
+{
+	false = 0,
+	true
+} bool;
 
 /**
  * struct listint_s - Doubly linked list node
@@ -24,6 +37,6 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
-void cocktail_sort_list(listint_t **list);`
+void cocktail_sort_list(listint_t **list);
 
 #endif
