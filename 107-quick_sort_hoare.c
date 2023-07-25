@@ -25,7 +25,7 @@ int _partition(int *array, size_t size, int start, int end)
 	int point, top, bottom;
 
 	point = array[end];
-	for (top = start - 1, bottom = end + 1; above < below;)
+	for (top = start - 1, bottom = end + 1; top < bottom;)
 	{
 		do {
 			top++;
